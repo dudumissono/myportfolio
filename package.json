@@ -1,6 +1,6 @@
 {
   "name": "myportfolio",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -12,5 +12,18 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
-  }
+  },
+  "main": "routes/index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudumissono/myportfolio.git"
+  },
+  "author": "Eduardo Missono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudumissono/myportfolio/issues"
+  },
+  "homepage": "https://github.com/dudumissono/myportfolio#readme",
+  "description": ""
 }
